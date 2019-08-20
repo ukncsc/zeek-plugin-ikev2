@@ -1,0 +1,12 @@
+Zeek::IKEv2 - Protocol analyser for IKEv2 initial messages (dynamic, version 0.1.0)
+    [Analyzer] IKEv2 (ANALYZER_IKEV2, enabled)
+    [Event] ike_event
+    [Event] ikev2_sa_init_event
+    [Event] ikev2_sa_init_proposal_event
+    [Event] ikev2_sa_init_transform_event
+    [Event] ikev2_key_exchange_event
+    [Event] ikev2_cert_req_payload_event
+    [Event] ikev2_nonce_payload_event
+    [Event] ikev2_notify_payload_event
+    [Event] ikev2_vendor_id_event
+
