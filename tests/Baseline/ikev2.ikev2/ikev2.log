@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ikev2
+#open	2020-01-15-11-14-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	is_orig	sa_i	sa_r	version	exchange_type	selected_proposal_number	selected_transforms	selected_ke_dh_group_num	cipher_hash	notify_message_type_names	vendor_payloads
+#types	time	string	addr	port	addr	port	bool	string	string	int	int	string	vector[string]	int	string	vector[string]	vector[string]
+1577291441.831979	CHhAvVGS1DHFjwGM9	172.16.158.1	63995	172.16.158.142	500	F	46fd10006d11e258	0000000000000000	2	34	-	-	19	-	INVALID_KE_PAYLOAD	-
+1577291441.930879	CHhAvVGS1DHFjwGM9	172.16.158.1	63995	172.16.158.142	500	F	46fd10006d11e258	14633b5928660a90	2	34	1	ENCR:ENCR_AES_CBC,INTEG:AUTH_HMAC_SHA2_256_128,PRF:PRF_AES128_XCBC,D-H:3072-bit MODP Group	15	c59b56d281c948608bc2bbdb6f4073d7	NAT_DETECTION_SOURCE_IP,NAT_DETECTION_DESTINATION_IP,IKEV2_FRAGMENTATION_SUPPORTED,SIGNATURE_HASH_ALGORITHMS,CHILDLESS_IKEV2_SUPPORTED,MULTIPLE_AUTH_SUPPORTED	-
+#close	2020-01-15-11-14-27
